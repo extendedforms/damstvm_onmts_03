@@ -2539,6 +2539,7 @@ const questions = [
       "Double bubble sign"
     ],
     answerIndex: 0,
-    correctAnswerText: "Mercedes-Benz sign"
-  }
+    correctAnswerText: "Mercedes-Benz cap"
+  },
+  
 ];
