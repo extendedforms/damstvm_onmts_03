@@ -2187,12 +2187,12 @@ window.questions = [
     id: 156,
     image: "images/IMG_3959.jpeg",
     question:
-      "A 24-year-old male presents with a right-sided groin swelling that increases on coughing and descends into the scrotum. During laparoscopic evaluation, the hernial sac is seen entering through an opening in the transversalis fascia, lateral to the inferior epigastric vessels. Which of the following structures forms this opening?",
+      "A 22-year-old man presents with a right-sided groin swelling that becomes prominent on coughing and gradually descends into the scrotum. On examination, the swelling is reducible and lies above and medial to the pubic tubercle. During laparoscopic repair, the hernial sac is seen entering the inguinal canal through an opening lateral to the inferior epigastric vessels.\n\nWhich of the following structures gives rise to the internal spermatic fascia covering this hernial sac?",
     options: [
       "Transversalis fascia",
       "External oblique aponeurosis",
-      "Parietal peritoneum",
-      "Internal oblique muscle"
+      "Internal oblique muscle",
+      "Parietal peritoneum"
     ],
     answerIndex: 0,
     correctAnswerText: "Transversalis fascia"
