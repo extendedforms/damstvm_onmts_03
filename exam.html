@@ -27,6 +27,9 @@
       align-items: center;
       font-size: 14px;
       font-weight: bold;
+      position: sticky;
+      top: 0;
+      z-index: 999;
     }
 
     .layout {
@@ -518,6 +521,18 @@
       document.getElementById("vio").textContent = violationCount;
     }
 
+    function buildAnswerKeyFromQuestions() {
+      const answerKey = {};
+
+      window.questions.forEach(function(q) {
+        if (q && q.id !== undefined && q.answerIndex !== undefined) {
+          answerKey[String(q.id)] = Number(q.answerIndex);
+        }
+      });
+
+      return answerKey;
+    }
+
     function renderQuestion() {
       const q = window.questions[currentIndex];
 
@@ -663,12 +678,14 @@
 
     async function submitExam(reason, isAuto) {
       if (submitted) return;
+
       submitted = true;
       clearInterval(timerInterval);
 
       const endedAt = new Date();
       const timeTakenSec = Math.floor((endedAt - startedAt) / 1000);
       const qOrder = window.questions.map(q => q.id);
+      const answerKey = buildAnswerKeyFromQuestions();
 
       const payload = {
         name: candidateName,
@@ -677,6 +694,7 @@
         answers: userAnswers,
         marked: markedQuestions,
         qOrder: qOrder,
+        answerKey: answerKey,
         timeTakenSec: timeTakenSec,
         violations: violationCount,
         userAgent: navigator.userAgent,
@@ -702,6 +720,8 @@
             responses: userAnswers,
             markedQuestions: markedQuestions,
             qOrder: qOrder,
+            answerKey: answerKey,
+
             timeTakenSec: timeTakenSec,
             violationCount: violationCount,
             userAgent: navigator.userAgent,
