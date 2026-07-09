@@ -315,7 +315,7 @@ window.questions = [
   {
     id: 25,
     image: "",
-    question: "A video shows a researcher calculating a 95% Confidence Interval for a sample mean. Which formula represents the correct mathematical limit?",
+    question: "A researcher calculating a 95% Confidence Interval for a sample mean. Which formula represents the correct mathematical limit?",
     options: [
       "Mean ± 1.96 Standard Deviations",
       "Mean ± 2 Standard Errors",
