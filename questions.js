@@ -80,7 +80,7 @@ window.questions = [
   },
   {
     id: 7,
-    image: "",
+    image: "images/ScreenRecording_07-16-2026 23-26-48_1.mov",
     question: "A psychologist is evaluating a 25-year-old male to assess his underlying defense mechanisms and subconscious drives. The patient is shown a series of cards depicting ambiguous interpersonal scenes featuring human faces and is asked to narrate a story about each picture. Which of the following tests is being administered?",
     options: [
       "Minnesota Multiphasic Personality Inventory (MMPI)",
@@ -275,7 +275,7 @@ window.questions = [
   },
   {
     id: 22,
-    image: "",
+    image: "images/IMG_9897.jpeg",
     question: "A 19-year-old female is referred to the psychiatry clinic by her dermatologist after presenting with irregular, asymmetric patches of hair loss on her scalp. She confesses to experiencing an escalating tension that is only relieved by pulling out her own hair. A similar urge is noted for picking at her skin. What is the most effective non-pharmacological treatment of choice for her condition?",
     options: [
       "Systemic desensitization",
@@ -314,7 +314,7 @@ window.questions = [
   },
   {
     id: 25,
-    image: "",
+    image: "images/ScreenRecording_07-16-2026 23-33-30_1.mov",
     question: "A 70-year-old male is admitted to the ICU following major abdominal surgery. On postoperative day 2, he becomes acutely disoriented and restless. The nursing staff notes that his confusion significantly worsens during the evening hours. He is also observed to be continuously and aimlessly plucking at his bed sheets. What is the specific clinical term for this motor behavior?",
     options: [
       "Carphologia",
@@ -353,8 +353,8 @@ window.questions = [
   },
   {
     id: 28,
-    image: "",
-    question: "An 8-year-old boy is brought to the pediatrician by his parents due to sudden, repetitive eye blinking and facial grimacing. Over the last few months, he has also developed involuntary vocalizations, including throat clearing, grunting, and occasionally shouting obscene words in public. Which of the following is the first-line drug of choice for managing this condition?",
+    image: "images/ScreenRecording_07-16-2026 23-40-31_1.mov",
+    question: "An 15-year-old girl is brought to the pediatrician by his parents due to sudden, repetitive eye blinking and facial grimacing. Over the last few months, he has also developed involuntary vocalizations, including throat clearing, grunting, and occasionally shouting obscene words in public. Which of the following is the first-line drug of choice for managing this condition?",
     options: [
       "Fluoxetine",
       "Methylphenidate",
@@ -366,7 +366,7 @@ window.questions = [
   },
   {
     id: 29,
-    image: "",
+    image: "images/ScreenRecording_07-16-2026 23-47-40_1.mov",
     question: "A 2-year-old girl with a history of normal development until 6 months of age presents with a recent loss of acquired speech and purposeful hand skills. On examination, the pediatrician notes an acquired microcephaly and constant, repetitive hand-wringing movements. What is the most likely diagnosis?",
     options: [
       "Rett's syndrome",
@@ -379,7 +379,7 @@ window.questions = [
   },
   {
     id: 30,
-    image: "",
+    image: "images/ScreenRecording_07-16-2026 23-51-51_1.mov",
     question: "A 24-year-old man presents with irresistible daytime sleep attacks. He describes terrifying episodes of being completely unable to move just as he is falling asleep. Furthermore, he often collapses to the floor without losing consciousness whenever he laughs heartily. Which of the following terms strictly defines the pathognomonic symptom he experiences while laughing?",
     options: [
       "Hypnagogic hallucination",
@@ -496,7 +496,7 @@ window.questions = [
   },
   {
     id: 39,
-    image: "",
+    image: "images/ScreenRecording_07-16-2026 23-59-28_1.mov",
     question: "A 45-year-old male being treated for schizophrenia with triflupromazine presents to the clinic with a newly developed resting tremor, cogwheel rigidity, and a slow, shuffling gait. What is the most appropriate pharmacological treatment for this specific adverse effect?",
     options: [
       "Rasagiline",
@@ -704,7 +704,7 @@ window.questions = [
   },
   {
     id: 55,
-    image: "",
+    image: "images/IMG_9969.jpeg",
     question: "A 25-year-old male with severe, repetitive contamination obsessions undergoes neuroimaging. Overactivation of the cortico-striatal-thalamic-cortical (CSTC) loop is identified. Which specific anatomical brain finding is classically associated with this condition?",
     options: [
       "Enlarged lateral ventricles",
@@ -938,8 +938,8 @@ window.questions = [
   },
   {
     id: 73,
-    image: "",
-    question: "A 34-year-old patient on haloperidol therapy for 2 years develops involuntary lip-smacking, chewing movements, and grimacing. Which of the following mechanisms explains this condition?",
+    image: "images/ScreenRecording_07-17-2026 00-07-31_1.mov",
+    question: "A 44-year-old patient on haloperidol therapy for 2 years develops involuntary lip-smacking, chewing movements, and grimacing. Which of the following mechanisms explains this condition?",
     options: [
       "Dopamine D2 receptor upregulation",
       "Nigrostriatal dopamine depletion",
@@ -1081,7 +1081,7 @@ window.questions = [
   },
   {
     id: 84,
-    image: "",
+    image: "images/IMG_9903.jpeg",
     question: "A patient is diagnosed with inflammation of the middle vascular coat of the eye (Uveitis). Which of the following structures is primarily involved in this layer?",
     options: [
       "Sclera",
@@ -1107,7 +1107,7 @@ window.questions = [
   },
   {
     id: 86,
-    image: "",
+    image: "images/IMG_9904.jpeg",
     question: "A newborn is evaluated for bilateral microphthalmia. A mutation in which of the following genes is most likely responsible for this developmental anomaly?",
     options: [
       "PAX-6",
@@ -1120,7 +1120,7 @@ window.questions = [
   },
   {
     id: 87,
-    image: "",
+    image: "images/IMG_9905.jpeg",
     question: "An asymptomatic 20-year-old undergoes a routine fundus examination. The ophthalmologist observes a small, benign glial tissue tuft extending from the optic disc into the vitreous cavity. This clinical finding represents the persistence of which of the following embryological structures?",
     options: [
       "Anterior part of hyaloid vessel",
@@ -1133,7 +1133,7 @@ window.questions = [
   },
   {
     id: 88,
-    image: "",
+    image: "images/IMG_9906.jpeg",
     question: "A 40-year-old female presents with severe, deep eye pain and intense redness. Instillation of topical phenylephrine fails to blanch the engorged vessels on the ocular surface. Inflammation of which of the following vascular layers is most likely responsible for this clinical presentation?",
     options: [
       "Conjunctival plexus",
@@ -1146,7 +1146,7 @@ window.questions = [
   },
   {
     id: 89,
-    image: "",
+    image: "images/IMG_9908.jpeg",
     question: "A young male presents to the emergency room with restricted upgaze and diplopia after sustaining a direct punch to his right eye. A CT scan reveals a blow-out fracture. Which of the following bones is most likely involved, representing the weakest point of the bony orbit?",
     options: [
       "Frontal bone",
@@ -1185,7 +1185,7 @@ window.questions = [
   },
   {
     id: 92,
-    image: "",
+    image: "images/ScreenRecording_07-17-2026 00-12-02_1.mov",
     question: "A young female with suspected unilateral optic neuritis undergoes a swinging flashlight test. When the light is swung from her healthy eye to the affected eye, what is the most likely clinical observation?",
     options: [
       "Both pupils constrict normally",
@@ -1198,7 +1198,7 @@ window.questions = [
   },
   {
     id: 93,
-    image: "",
+    image: "images/ScreenRecording_07-17-2026 00-18-02_1.mov",
     question: "A young female presents with a unilaterally dilated right pupil. It shows absent response to direct light but constricts briskly when she focuses on a near object. Instillation of 0.125% dilute pilocarpine causes prompt constriction of this right pupil. What is the most likely diagnosis?",
     options: [
       "Third cranial nerve palsy",
@@ -1224,7 +1224,7 @@ window.questions = [
   },
   {
     id: 95,
-    image: "",
+    image: "images/IMG_9909.jpeg",
     question: "A 22-year-old male presents with progressive blurring of vision and frequent changes in his astigmatic prescription. On performing distant direct ophthalmoscopy, the ophthalmologist observes an \"oil droplet reflex\" in the pupillary area. This clinical finding is classically associated with which of the following conditions?",
     options: [
       "Cataract",
@@ -1263,7 +1263,7 @@ window.questions = [
   },
   {
     id: 98,
-    image: "",
+    image: "images/IMG_9911.jpeg",
     question: "A young male with sensorineural deafness and recurrent hematuria presents with progressive visual blurring. Slit-lamp examination is most likely to reveal which of the following specific lens abnormalities?",
     options: [
       "Anterior lenticonus",
@@ -1276,7 +1276,7 @@ window.questions = [
   },
   {
     id: 99,
-    image: "",
+    image: "images/IMG_9912.jpeg",
     question: "A 16-year-old patient with a history of poorly controlled Type 1 Diabetes Mellitus presents to the ophthalmology outpatient department complaining of rapidly progressive blurring of vision in both eyes. On slit-lamp examination, distinct cortical lens opacities are observed. Which of the following morphological patterns is most classically associated with this specific patient's underlying systemic profile?",
     options: [
       "Christmas tree cataract",
@@ -1315,7 +1315,7 @@ window.questions = [
   },
   {
     id: 102,
-    image: "",
+    image: "images/IMG_9915.jpeg",
     question: "A 75-year-old highly myopic patient with a history of glaucoma undergoes routine intraocular surgery. Suddenly, there is a sudden firming of the globe and prolapse of intraocular contents due to the rupture of posterior ciliary vessels. What is the immediate first step in the management of this dangerous complication?",
     options: [
       "Close the surgical incision",
@@ -1354,7 +1354,7 @@ window.questions = [
   },
   {
     id: 105,
-    image: "",
+    image: "images/IMG_9917.jpeg",
     question: "A 32-year-old pregnant female with severe preeclampsia presents with sudden vision loss. Fundoscopy reveals a convex retinal elevation. The subretinal fluid is observed to shift its position dependently when the patient's head posture is altered. What is the most likely diagnosis?",
     options: [
       "Rhegmatogenous retinal detachment",
@@ -1367,7 +1367,7 @@ window.questions = [
   },
   {
     id: 106,
-    image: "",
+    image: "images/IMG_9918.jpeg",
     question: "A patient develops central visual distortion weeks after undergoing cataract surgery. Fundus angiography reveals a classic \"flower petal\" pattern of hyperfluorescence at the macula. This specific morphological pattern is dictated by fluid accumulation in which of the following retinal layers?",
     options: [
       "Outer plexiform layer",
@@ -1380,7 +1380,7 @@ window.questions = [
   },
   {
     id: 107,
-    image: "",
+    image: "images/IMG_9919.jpeg",
     question: "A 40-year-old male presents with sudden central vision distortion. Fundus examination reveals irregular, reddish-brown lines radiating from the optic disc. Imaging confirms these are full-thickness cracks in the elastic tissue of Bruch's membrane. Which of the following systemic conditions is most classically associated with this ocular finding?",
     options: [
       "Marfan syndrome",
@@ -1393,7 +1393,7 @@ window.questions = [
   },
   {
     id: 108,
-    image: "",
+    image: "images/IMG_9920.jpeg",
     question: "A 25-year-old male with a history of progressive night blindness and tunnel vision is diagnosed with Retinitis Pigmentosa. He now complains of significant glare while driving at night due to early cataract formation. Which specific type of cataract is most classically associated with his underlying retinal dystrophy?",
     options: [
       "Nuclear sclerosis",
@@ -1406,7 +1406,7 @@ window.questions = [
   },
   {
     id: 109,
-    image: "",
+    image: "images/IMG_9921.jpeg",
     question: "A 55-year-old poorly controlled diabetic patient undergoes a routine fundus examination. The ophthalmologist notes multiple large, fluffy \"cotton wool spots\" on the retina. In which of the following retinal layers are these specific lesions primarily located?",
     options: [
       "Outer plexiform layer",
@@ -1432,7 +1432,7 @@ window.questions = [
   },
   {
     id: 111,
-    image: "",
+    image: "images/IMG_9922.jpeg",
     question: "A 55-year-old hypertensive male undergoes a routine fundus examination. The ophthalmologist observes a prominent \"tapering\" of the retinal vein on both sides of where it is crossed by a thickened, sclerotic arteriole. Which of the following eponymous signs accurately describes this specific vascular finding?",
     options: [
       "Salus sign",
@@ -1445,7 +1445,7 @@ window.questions = [
   },
   {
     id: 112,
-    image: "",
+    image: "images/IMG_9923.jpeg",
     question: "A 65-year-old hypertensive male presents with sudden, painless loss of vision in his right eye. Fundoscopy reveals widespread flame-shaped hemorrhages and soft exudates across all four retinal quadrants, creating a classic \"blood and thunder\" appearance. What is the most likely anatomical site of the primary vascular occlusion in this patient?",
     options: [
       "Arteriovenous crossing",
@@ -1458,7 +1458,7 @@ window.questions = [
   },
   {
     id: 113,
-    image: "",
+    image: "images/IMG_9924.jpeg",
     question: "A 65-year-old male with a history of atrial fibrillation presents to the emergency room with sudden, painless, profound loss of vision in his right eye. Fundoscopy reveals a diffuse milky-white retina with a prominent central cherry-red spot. What is the immediate first step in the management of this acute ocular emergency?",
     options: [
       "Intravenous mannitol",
@@ -1471,7 +1471,7 @@ window.questions = [
   },
   {
     id: 114,
-    image: "",
+    image: "images/IMG_9925.jpeg",
     question: "A 15-year-old boy presents with unilateral vision loss. Fundoscopy reveals blurred optic disc margins accompanied by a prominent \"macular star\" exudate pattern. Which of the following is the most common etiology for this specific clinical presentation?",
     options: [
       "Cat scratch disease",
@@ -1497,7 +1497,7 @@ window.questions = [
   },
   {
     id: 116,
-    image: "",
+    image: "images/IMG_9927.jpeg",
     question: "A 50-year-old man presents with right-sided unilateral partial ptosis and miosis. Upon examination, his anisocoria becomes distinctly more pronounced in a dim room. Uniquely, facial sweating on the affected right side remains completely intact. Which of the following is the most likely etiology for this specific presentation?",
     options: [
       "Pancoast tumor",
@@ -1523,7 +1523,7 @@ window.questions = [
   },
   {
     id: 118,
-    image: "",
+    image: "images/IMG_9970.jpeg",
     question: "A 6-month-old infant is brought to the ophthalmology clinic with classic symptoms of excessive watering, photophobia, and blepharospasm. Examination under anesthesia confirms the diagnosis of primary congenital glaucoma, revealing significantly elevated intraocular pressure and a densely hazy, edematous cornea. Which of the following is the most appropriate initial surgical intervention for this specific patient?",
     options: [
       "Trabeculotomy",
@@ -1536,7 +1536,7 @@ window.questions = [
   },
   {
     id: 119,
-    image: "",
+    image: "images/IMG_9930.jpeg",
     question: "A 65-year-old poorly controlled diabetic patient presents with a blind, painful eye due to advanced neovascular glaucoma. Intraocular pressure remains highly elevated despite maximum medical therapy. Standard filtering surgery carries a high risk of failure due to conjunctival scarring. Which of the following is the most appropriate surgical intervention?",
     options: [
       "Trabeculectomy with Mitomycin C",
@@ -1640,7 +1640,7 @@ window.questions = [
   },
   {
     id: 127,
-    image: "",
+    image: "images/IMG_9933.jpeg",
     question: "An 18-month-old child presents with a prominent white pupillary reflex in the right eye. Imaging confirms a large, advanced calcified intraocular mass occupying the majority of the globe, consistent with retinoblastoma. If a destructive surgical approach is required, which of the following procedures is absolutely contraindicated in this patient?",
     options: [
       "Exenteration",
@@ -1653,7 +1653,7 @@ window.questions = [
   },
   {
     id: 128,
-    image: "",
+    image: "images/IMG_9934.jpeg",
     question: "A 35-year-old male presents with acute ocular pain, photophobia, and circumcorneal redness. Slit-lamp examination reveals a heavy 3+ \"flare\" in the anterior chamber. This specific sign is due to protein leakage resulting from the breakdown of the blood-aqueous barrier. Which of the following structures represents a primary anatomical component of this tight barrier?",
     options: [
       "Corneal endothelium",
@@ -1666,7 +1666,7 @@ window.questions = [
   },
   {
     id: 129,
-    image: "",
+    image: "images/IMG_9936.jpeg",
     question: "A 32-year-old female presents with a chief complaint of bilateral painless floaters and gradual blurring of vision. Slit-lamp biomicroscopy reveals cellular aggregates in the anterior vitreous (\"snowballs\") and exudates over the inferior pars plana (\"snow banking\"). What is the most common vision-threatening complication associated with this specific ocular condition?",
     options: [
       "Posterior subcapsular cataract",
@@ -1679,7 +1679,7 @@ window.questions = [
   },
   {
     id: 130,
-    image: "",
+    image: "images/IMG_9937.jpeg",
     question: "A 70-year-old patient develops severe visual blurring, halos, and painful ocular blisters six months after a complicated cataract surgery. Slit-lamp examination reveals classic bullous keratopathy. This condition is primarily triggered by the failure of which of the following physiological mechanisms that normally maintain corneal transparency?",
     options: [
       "Endothelial Na-K ATPase pump",
@@ -1692,7 +1692,7 @@ window.questions = [
   },
   {
     id: 131,
-    image: "",
+    image: "images/IMG_9938.jpeg",
     question: "A 65-year-old patient with advanced Fuchs' endothelial dystrophy presents with progressive corneal decompensation and vision loss. The ophthalmologist plans a targeted corneal transplantation that replaces strictly the diseased posterior layers while preserving the patient's healthy anterior structures. Which of the following procedures is most appropriate for this specific anatomical requirement?",
     options: [
       "Penetrating keratoplasty",
@@ -1705,7 +1705,7 @@ window.questions = [
   },
   {
     id: 132,
-    image: "",
+    image: "images/IMG_9940.jpeg",
     question: "A 25-year-old contact lens wearer presents with excruciating ocular pain that seems entirely out of proportion to the relatively mild initial clinical signs. He admits to occasionally washing his lenses with tap water. Slit-lamp examination reveals early radial perineuritis and a distinct \"Wessley immune ring\" infiltrate. Which of the following is the most appropriate culture medium for isolating the suspected causative organism?",
     options: [
       "Sabouraud dextrose agar",
@@ -1718,7 +1718,7 @@ window.questions = [
   },
   {
     id: 133,
-    image: "",
+    image: "images/IMG_9971.jpeg",
     question: "A 30-year-old male is diagnosed with a branching corneal ulcer showing distinct terminal bulbs on fluorescein staining. He is mistakenly prescribed topical corticosteroids by a primary care physician. Which of the following conditions is the patient at highest risk of rapidly developing?",
     options: [
       "Interstitial keratitis",
@@ -1731,7 +1731,7 @@ window.questions = [
   },
   {
     id: 134,
-    image: "",
+    image: "images/IMG_9973.jpeg",
     question: "A 30-year-old male presents with significant visual distortion following the healing of a traumatic corneal ulcer. Slit-lamp examination reveals a faint, superficial corneal scar involving less than one-third of the stromal depth. The underlying iris and anterior chamber details are clearly visible through the lesion. Which of the following is the most appropriate surgical management for this specific grade of opacity?",
     options: [
       "Phototherapeutic keratectomy",
@@ -1744,7 +1744,7 @@ window.questions = [
   },
   {
     id: 135,
-    image: "",
+    image: "images/IMG_9944.jpeg",
     question: "A 55-year-old patient with a history of long-term cardiac medication use presents with asymptomatic, bilateral, whorled pigmentary deposits in the corneal epithelium. Visual acuity remains unaffected, and the findings are noted to be reversible upon medication discontinuation. Which of the following is the most likely medication implicated in this presentation?",
     options: [
       "Amiodarone",
@@ -1757,7 +1757,7 @@ window.questions = [
   },
   {
     id: 136,
-    image: "",
+    image: "images/IMG_9945.jpeg",
     question: "A 22-year-old male with a known history of severe vernal keratoconjunctivitis presents with progressively decreasing vision and frequent changes in his astigmatic spectacle prescription. During clinical examination, the ophthalmologist asks the patient to look downwards, which reveals a distinct V-shaped bulging of the lower eyelid margin. Which of the following is the correct eponym for this specific clinical sign?",
     options: [
       "Vogt striae",
@@ -1770,7 +1770,7 @@ window.questions = [
   },
   {
     id: 137,
-    image: "",
+    image: "images/IMG_9947.jpeg",
     question: "A 60-year-old female with long-standing, severe rheumatoid arthritis presents for a routine ocular evaluation. She reports absolutely no ocular pain or redness. Slit-lamp examination reveals a completely quiet eye with marked, localized thinning of the anterior sclera, allowing the dark underlying uveal tissue to clearly shine through. Which of the following is the most likely diagnosis?",
     options: [
       "Posterior scleritis",
@@ -1783,7 +1783,7 @@ window.questions = [
   },
   {
     id: 138,
-    image: "",
+    image: "images/IMG_9948.jpeg",
     question: "A 45-year-old farmer presents with a wing-like fibrovascular growth extending from the nasal conjunctiva onto the cornea, causing significant irregular astigmatism. Surgical removal is planned. Which of the following surgical approaches is considered the most ideal standard of care to minimize recurrence?",
     options: [
       "Simple excision with bare sclera technique",
@@ -1796,7 +1796,7 @@ window.questions = [
   },
   {
     id: 139,
-    image: "",
+    image: "images/IMG_9949.jpeg",
     question: "A 9-day-old neonate born via normal vaginal delivery presents with bilateral profuse mucopurulent ocular discharge. Based on the precise time of onset, which of the following is the most likely causative organism?",
     options: [
       "Chlamydia trachomatis",
@@ -1926,7 +1926,7 @@ window.questions = [
   },
   {
     id: 149,
-    image: "",
+    image: "images/IMG_9950.jpeg",
     question: "A 10-year-old child with a suspected manifest strabismus is evaluated using a subjective test for binocular vision. He is asked to view an illuminated box containing four lights while wearing a red filter over his right eye and a green filter over his left eye. He reports seeing exactly three green dots and zero red dots. What is the most accurate clinical interpretation of this specific finding?",
     options: [
       "Normal binocular fusion",
@@ -1939,7 +1939,7 @@ window.questions = [
   },
   {
     id: 150,
-    image: "",
+    image: "images/IMG_9951.jpeg",
     question: "An ophthalmologist is evaluating the depth perception of a 6-year-old child. The child is asked to wear a pair of red-green anaglyph glasses and identify shapes hidden within random dot stereograms on printed plates. Which of the following specific tests for stereopsis is being performed?",
     options: [
       "Titmus Fly test",
@@ -1952,7 +1952,7 @@ window.questions = [
   },
   {
     id: 151,
-    image: "",
+    image: "images/IMG_9952.jpeg",
     question: "A 55-year-old male presents with a localized midbrain infarct. Neurological examination reveals an ipsilateral third cranial nerve palsy, but with the unique finding of marked bilateral ptosis. This specific bilateral manifestation strongly indicates a nuclear lesion involving which of the following anatomical structures?",
     options: [
       "Single central nucleus of Levator Palpebrae Superioris",
@@ -1978,7 +1978,7 @@ window.questions = [
   },
   {
     id: 153,
-    image: "",
+    image: "images/ScreenRecording_07-17-2026 00-32-23_1.mov",
     question: "A 35-year-old male undergoes routine vestibular function testing. The examiner instills cold water into the patient's right external auditory canal. What is the expected direction of the fast phase of the induced nystagmus in a normal physiological response?",
     options: [
       "Towards the right side",
@@ -2004,7 +2004,7 @@ window.questions = [
   },
   {
     id: 155,
-    image: "",
+    image: "images/IMG_9953.jpeg",
     question: "A 45-year-old carpenter with a history of an untreated penetrating eye injury from a chisel and hammer two years ago presents with gradually diminishing vision. Slit-lamp examination reveals a uniquely hyperpigmented iris and intraocular pressure monitoring confirms secondary open-angle glaucoma in the affected eye. The most likely retained intraocular foreign body is composed of which of the following materials?",
     options: [
       "Iron",
@@ -2069,7 +2069,7 @@ window.questions = [
   },
   {
     id: 160,
-    image: "",
+    image: "images/IMG_9954.jpeg",
     question: "A 60-year-old female presents with painless blurring of vision that is classically maximal in the morning upon waking up and gradually improves as the day progresses. Slit-lamp examination reveals a \"beaten bronze\" appearance of the posterior cornea. What is the definitive surgical management of choice for her condition?",
     options: [
       "Phototherapeutic Keratectomy (PTK)",
@@ -2082,7 +2082,7 @@ window.questions = [
   },
   {
     id: 161,
-    image: "",
+    image: "images/IMG_9956.jpeg",
     question: "A neonate presents with persistent inward turning of the lower eyelid margin. Clinical examination reveals an underlying dysgenesis of the lower lid retractors. What is the most appropriate definitive surgical management for this patient?",
     options: [
       "Jones procedure",
@@ -2095,7 +2095,7 @@ window.questions = [
   },
   {
     id: 162,
-    image: "",
+    image: "images/IMG_9957.jpeg",
     question: "A 75-year-old male presents with outward turning of his lower eyelid margin causing chronic watering. Clinical examination confirms senile ectropion with generalized horizontal laxity and a significant amount of excess eyelid skin. What is the most appropriate surgical procedure for this specific presentation?",
     options: [
       "Kuhnt-Szymanowski procedure",
@@ -2108,7 +2108,7 @@ window.questions = [
   },
   {
     id: 163,
-    image: "",
+    image: "images/IMG_9958.jpeg",
     question: "A 30-year-old male presents with restricted ocular motility and chronic discomfort a few months after suffering a severe alkali chemical burn to his right eye. Slit-lamp examination reveals a thick, fibrous scar tissue band firmly fusing the inner surface of his lower eyelid directly to the eyeball. What is the precise clinical term for this pathological adhesion?",
     options: [
       "Ankyloblepharon",
@@ -2147,7 +2147,7 @@ window.questions = [
   },
   {
     id: 166,
-    image: "",
+    image: "images/IMG_9974.jpeg",
     question: "A diabetic patient presents two days after an uneventful cataract surgery with severe ocular pain, profound redness, and rapidly declining vision. Slit-lamp examination reveals a distinct hypopyon in the anterior chamber and prominent exudates in the vitreous cavity. What is the absolute first step in the management of this patient?",
     options: [
       "Intravitreal antibiotics",
@@ -2160,7 +2160,7 @@ window.questions = [
   },
   {
     id: 167,
-    image: "",
+    image: "images/IMG_9961.jpeg",
     question: "A 1-year-old child presents with progressive muscle weakness and delayed developmental milestones. Fundus examination reveals a prominent cherry-red spot at the macula. Abdominal examination specifically notes the complete absence of hepatosplenomegaly. Which of the following is the most likely diagnosis?",
     options: [
       "Niemann-Pick disease",
@@ -2199,7 +2199,7 @@ window.questions = [
   },
   {
     id: 170,
-    image: "",
+    image: "images/IMG_9962.jpeg",
     question: "A 12-year-old child presents with chronic ocular irritation and a persistent foreign body sensation. Slit-lamp examination reveals a completely normal anterior lid margin, but an abnormal, extra row of eyelashes is seen emerging directly from the meibomian gland orifices on the posterior aspect of the eyelid margin. What is the precise clinical diagnosis?",
     options: [
       "Distichiasis",
@@ -2225,7 +2225,7 @@ window.questions = [
   },
   {
     id: 172,
-    image: "",
+    image: "images/IMG_9963.jpeg",
     question: "A 30-year-old male with a history of ankylosing spondylitis presents with a painful, photophobic red eye. Slit-lamp examination reveals a \"headlight in the fog\" appearance due to the presence of flare in the anterior chamber. This specific clinical sign is a direct result of the inflammatory breakdown of which of the following physiological structures?",
     options: [
       "Inner blood-retinal barrier",
@@ -2238,7 +2238,7 @@ window.questions = [
   },
   {
     id: 173,
-    image: "",
+    image: "images/IMG_9965.jpeg",
     question: "A 20-year-old male presents with sudden, painful vision loss in his left eye. Examination reveals a markedly hazy cornea and a V-shaped bulging of the lower eyelid when looking down. Retinoscopy demonstrates a scissoring reflex, and an oil droplet reflex is noted bilaterally. What is the most likely diagnosis for his acute left eye presentation?",
     options: [
       "Pathological myopia",
@@ -2290,7 +2290,7 @@ window.questions = [
   },
   {
     id: 177,
-    image: "",
+    image: "images/IMG_9975.jpeg",
     question: "A 5-year-old child is brought to the OPD with a painless, slow-growing, smooth, and mobile swelling near the lateral aspect of the right eyebrow. Which of the following statements best describes the fundamental pathology of this specific lesion?",
     options: [
       "Disorganized proliferation of native capillary endothelial cells",
@@ -2303,7 +2303,7 @@ window.questions = [
   },
   {
     id: 178,
-    image: "",
+    image: "images/IMG_9967.jpeg",
     question: "A 7-year-old child with a recent history of severe ethmoid sinusitis presents with high fever, proptosis, and painfully restricted extraocular movements. Radiological imaging confirms a localized purulent collection situated strictly between the periorbita and the medial orbital wall. According to Chandler's classification, what is the specific stage of this patient's condition?",
     options: [
       "Stage I",
@@ -2316,7 +2316,7 @@ window.questions = [
   },
   {
     id: 179,
-    image: "",
+    image: "images/IMG_9968.jpeg",
     question: "A 70-year-old male scheduled for cataract surgery presents with a \"moth-eaten\" pupillary ruff and a distinctive \"bull's eye\" pattern on the anterior lens capsule upon slit-lamp examination. Gonioscopy of this patient's anterior chamber angle is most likely to reveal which of the following classical findings?",
     options: [
       "Blood in Schlemm's canal",
