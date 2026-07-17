@@ -1981,13 +1981,13 @@ window.questions = [
     image: "images/ScreenRecording_07-17-2026 00-32-23_1.mov",
     question: "A 35-year-old male undergoes routine vestibular function testing. The examiner instills cold water into the patient's left external auditory canal. What is the expected direction of the fast phase of the induced nystagmus in a normal physiological response?",
     options: [
-      "Towards the right side",
-      "Upward direction",
       "Towards the left side",
+      "Upward direction",
+      "Towards the right side",
       "Downward direction"
     ],
     answerIndex: 2,
-    correctAnswerText: "Towards the left side"
+    correctAnswerText: "Towards the right side"
   },
   {
     id: 154,
