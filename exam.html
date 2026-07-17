@@ -175,8 +175,6 @@
 
     button.danger { background: #c40035; }
 
-    button.fullscreen-btn { background: #0b5cab; }
-
     .palette {
       background: #f3f5fa;
       border-left: 1px solid #d6dce5;
@@ -403,7 +401,6 @@
         <div id="opts" class="opts"></div>
 
         <div class="actions">
-          <button class="fullscreen-btn" onclick="startFullscreen()">Start Fullscreen</button>
           <button id="prevBtn" onclick="prevQuestion()">Previous</button>
           <button onclick="clearResponse()">Clear Response</button>
           <button id="markBtn" onclick="markForReview()">Mark for Review</button>
@@ -433,7 +430,6 @@
 
   <div id="imgModal" class="img-modal">
     <div class="img-modal-top">
-      <button onclick="openImageFullscreen()">⛶ Fullscreen</button>
       <button class="danger" onclick="closeImageModal()">✕ Close</button>
     </div>
 
@@ -442,11 +438,11 @@
     </div>
   </div>
 
-  <script src="config.js?v=20260717a"></script>
-  <script src="questions.js?v=20260717a"></script>
+  <script src="config.js?v=20260717b"></script>
+  <script src="questions.js?v=20260717b"></script>
 
   <script>
-    const ASSET_VERSION = "20260717a";
+    const ASSET_VERSION = "20260717b";
 
     const API_URL = window.API_URL || window.SCRIPT_URL || "";
 
@@ -466,7 +462,6 @@
     let violationCount = 0;
     let timerInterval = null;
     let mediaLoadToken = 0;
-    let examFullscreenUsed = false;
 
     function safeParse(value) {
       try {
@@ -513,32 +508,6 @@
       );
     }
 
-    function getFullscreenElement() {
-      return (
-        document.fullscreenElement ||
-        document.webkitFullscreenElement ||
-        document.msFullscreenElement ||
-        null
-      );
-    }
-
-    function startFullscreen() {
-      const elem = document.documentElement;
-      examFullscreenUsed = true;
-
-      if (elem.requestFullscreen) {
-        elem.requestFullscreen().catch(function() {
-          alert("Fullscreen could not be started. Please use Google Chrome on laptop/desktop.");
-        });
-      } else if (elem.webkitRequestFullscreen) {
-        elem.webkitRequestFullscreen();
-      } else if (elem.msRequestFullscreen) {
-        elem.msRequestFullscreen();
-      } else {
-        alert("Fullscreen is not supported in this browser. Please use Google Chrome on laptop/desktop.");
-      }
-    }
-
     const candidate =
       safeParse(localStorage.getItem("neet_candidate") || "") ||
       {
@@ -562,7 +531,7 @@
 
     if (typeof window.isWithinExamWindow === "function" && !window.isWithinExamWindow()) {
       alert("Exam is not live now.");
-      window.location.replace("instructions.html?v=20260717a");
+      window.location.replace("instructions.html?v=20260717b");
       throw new Error("Exam not live");
     }
 
@@ -1289,18 +1258,6 @@
       }
     });
 
-    function handleFullscreenExit() {
-      if (submitted) return;
-
-      if (examFullscreenUsed && !getFullscreenElement()) {
-        sendViolation("Fullscreen exited", "Student exited fullscreen mode");
-      }
-    }
-
-    document.addEventListener("fullscreenchange", handleFullscreenExit);
-    document.addEventListener("webkitfullscreenchange", handleFullscreenExit);
-    document.addEventListener("MSFullscreenChange", handleFullscreenExit);
-
     document.addEventListener("contextmenu", function(e) {
       e.preventDefault();
       sendViolation("Right click attempted", "Student attempted right click");
@@ -1343,14 +1300,6 @@
     function closeImageModal() {
       imgModal.classList.remove("show");
       imgModalPic.removeAttribute("src");
-    }
-
-    function openImageFullscreen() {
-      if (imgModal.requestFullscreen) {
-        imgModal.requestFullscreen();
-      } else if (imgModal.webkitRequestFullscreen) {
-        imgModal.webkitRequestFullscreen();
-      }
     }
 
     imgModal.onclick = function(e) {
