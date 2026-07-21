@@ -1,7 +1,7 @@
 // Format: { id, image, question, options[], answerIndex, correctAnswerText }
+
 window.questions = [
   {
-
     id: 1,
     image: "images/IMG_0245.jpeg",
     question: `A 2-year-old boy has an empty right hemiscrotum since birth. Testis is non-palpable even under anesthesia. Diagnostic laparoscopy shows an oval, smooth, whitish structure consistent with a testis lying intra-abdominally.
@@ -103,7 +103,12 @@ Most likely diagnosis?`,
     question: `A 32-year-old man has painless scrotal swelling. Testis not clearly palpable separately. Transillumination test shows a uniform reddish-orange glow.
 
 Most likely condition?`,
-    options: ["Varicocele", "Inguinoscrotal hernia", "Hydrocele", "Testicular torsion"],
+    options: [
+      "Varicocele",
+      "Inguinoscrotal hernia",
+      "Hydrocele",
+      "Testicular torsion",
+    ],
     answerIndex: 2,
     correctAnswerText: "Hydrocele",
   },
@@ -121,7 +126,8 @@ Investigation + most likely diagnosis?`,
       "Retrograde urethrogram – Anterior urethral stricture",
     ],
     answerIndex: 2,
-    correctAnswerText: "Retrograde cystogram – Intraperitoneal rupture of urinary bladder",
+    correctAnswerText:
+      "Retrograde cystogram – Intraperitoneal rupture of urinary bladder",
   },
 
   {
@@ -130,7 +136,12 @@ Investigation + most likely diagnosis?`,
     question: `A 45-year-old woman has rapid onset (2–3 weeks) breast swelling with diffuse erythema, warmth, heaviness and peau d’orange. No discrete lump.
 
 Most probable diagnosis?`,
-    options: ["DCIS", "LCIS", "Inflammatory carcinoma of breast", "Paget disease of nipple"],
+    options: [
+      "DCIS",
+      "LCIS",
+      "Inflammatory carcinoma of breast",
+      "Paget disease of nipple",
+    ],
     answerIndex: 2,
     correctAnswerText: "Inflammatory carcinoma of breast",
   },
@@ -168,7 +179,12 @@ Best treatment option?`,
     question: `A 48-year-old man with chronic sun exposure has a pearly papule/nodule on face with telangiectasia and central ulceration (rodent ulcer appearance).
 
 Most likely diagnosis?`,
-    options: ["Basal cell carcinoma", "Malignant melanoma", "Squamous cell carcinoma", "Marjolin ulcer"],
+    options: [
+      "Basal cell carcinoma",
+      "Malignant melanoma",
+      "Squamous cell carcinoma",
+      "Marjolin ulcer",
+    ],
     answerIndex: 0,
     correctAnswerText: "Basal cell carcinoma",
   },
@@ -202,7 +218,8 @@ Which statement is TRUE?`,
       "Made from rabbit gut",
     ],
     answerIndex: 2,
-    correctAnswerText: "It is absorbed by phagocytosis and enzymatic degradation",
+    correctAnswerText:
+      "It is absorbed by phagocytosis and enzymatic degradation",
   },
 
   {
@@ -211,7 +228,12 @@ Which statement is TRUE?`,
     question: `A 10-year-old child has a painless midline anterior neck swelling that moves with deglutition and with protrusion of tongue.
 
 Most likely diagnosis?`,
-    options: ["Thyroglossal cyst", "Thyroglossal fistula", "Cold abscess", "Acute lymphadenitis"],
+    options: [
+      "Thyroglossal cyst",
+      "Thyroglossal fistula",
+      "Cold abscess",
+      "Acute lymphadenitis",
+    ],
     answerIndex: 0,
     correctAnswerText: "Thyroglossal cyst",
   },
@@ -238,14 +260,19 @@ FNAC is showing which feature?`,
     question: `A 16-year-old girl has a midline reddish nodular swelling at the base of tongue (foramen cecum). No palpable thyroid in neck.
 
 Identify the lesion.`,
-    options: ["Lingual thyroid", "Lingual tonsil", "Ranula", "Thyroglossal cyst"],
+    options: [
+      "Lingual thyroid",
+      "Lingual tonsil",
+      "Ranula",
+      "Thyroglossal cyst",
+    ],
     answerIndex: 0,
     correctAnswerText: "Lingual thyroid",
   },
 
   {
     id: 18,
-    image: "",
+    image: null,
     question: `A 46-year-old woman has a 2.5 cm lump in the upper outer quadrant of right breast with one palpable right axillary node. Which is the most likely first draining nodal basin?`,
     options: [
       "Internal mammary (parasternal) nodes",
@@ -259,7 +286,7 @@ Identify the lesion.`,
 
   {
     id: 19,
-    image: "",
+    image: null,
     question: `A 45-year-old woman has an 8 cm breast mass with skin edema (peau d’orange), mobile ipsilateral axillary nodes and a palpable ipsilateral supraclavicular node. No distant metastasis.
 
 What is the stage group?`,
@@ -270,7 +297,7 @@ What is the stage group?`,
 
   {
     id: 20,
-    image: "",
+    image: null,
     question: `A 58-year-old postmenopausal woman undergoes BCS for a 1.2 cm IDC, node-negative, ER/PR+, HER2-, unifocal, margins negative, no LVI. She asks about shorter RT schedules.
 
 Best statement?`,
@@ -281,12 +308,13 @@ Best statement?`,
       "Postmenopausal ER+ patients should receive tamoxifen only (never aromatase inhibitors)",
     ],
     answerIndex: 2,
-    correctAnswerText: "APBI can be considered in selected low-risk cases like this patient",
+    correctAnswerText:
+      "APBI can be considered in selected low-risk cases like this patient",
   },
 
   {
     id: 21,
-    image: "",
+    image: null,
     question: `A 60-year-old woman has chronic eczema-like changes of nipple-areola complex with occasional serosanguinous discharge. Biopsy shows large pale vacuolated cells within epidermis.
 
 Most appropriate statement?`,
@@ -303,18 +331,23 @@ Most appropriate statement?`,
 
   {
     id: 22,
-    image: "",
+    image: null,
     question: `A 28-year-old man undergoes open splenectomy for trauma. Hemostasis was secured. Four hours later he develops tachycardia, falling BP, and increasing drain output with fresh blood.
 
 MOST likely type of hemorrhage?`,
-    options: ["Primary hemorrhage", "Reactionary hemorrhage", "Secondary hemorrhage", "Tertiary hemorrhage"],
+    options: [
+      "Primary hemorrhage",
+      "Reactionary hemorrhage",
+      "Secondary hemorrhage",
+      "Tertiary hemorrhage",
+    ],
     answerIndex: 1,
     correctAnswerText: "Reactionary hemorrhage",
   },
 
   {
     id: 23,
-    image: "",
+    image: null,
     question: `A 55-year-old man with urosepsis has warm extremities, bounding pulse, wide pulse pressure, tachycardia, hypotension, high lactate.
 
 Which hemodynamic pattern fits early/warm septic shock?`,
@@ -325,12 +358,13 @@ Which hemodynamic pattern fits early/warm septic shock?`,
       "Normal CO, ↑ SVR, ↓ PCWP",
     ],
     answerIndex: 1,
-    correctAnswerText: "↑ CO, ↓ SVR, normal/↓ PCWP, ↑ mixed venous O₂ saturation",
+    correctAnswerText:
+      "↑ CO, ↓ SVR, normal/↓ PCWP, ↑ mixed venous O₂ saturation",
   },
 
   {
     id: 24,
-    image: "",
+    image: null,
     question: `A trauma patient arrives with HR 128/min, RR 32/min, confused, cold clammy extremities, and urine output 10 mL/hr.
 
 Estimated blood loss corresponds to which ATLS class of hemorrhagic shock?`,
@@ -341,7 +375,7 @@ Estimated blood loss corresponds to which ATLS class of hemorrhagic shock?`,
 
   {
     id: 25,
-    image: "",
+    image: null,
     question: `A 24-year-old woman with acute gastroenteritis has tachycardia, delayed capillary refill, cool extremities, RR 26/min, BP 110/70. She is anxious but oriented.
 
 Which statement is TRUE?`,
@@ -358,7 +392,7 @@ Which statement is TRUE?`,
 
   {
     id: 26,
-    image: "",
+    image: null,
     question: `A 72-year-old diabetic man with fever and dysuria has RR 28/min, BP 88/54, HR 124, altered mentation (GCS 13). Suspected urosepsis.
 
 BEST immediate next step?`,
@@ -369,12 +403,13 @@ BEST immediate next step?`,
       "Packed RBC transfusion",
     ],
     answerIndex: 2,
-    correctAnswerText: "Rapid IV crystalloids (fluid resuscitation) + sepsis bundle",
+    correctAnswerText:
+      "Rapid IV crystalloids (fluid resuscitation) + sepsis bundle",
   },
 
   {
     id: 27,
-    image: "",
+    image: null,
     question: `A 30-year-old man develops high fever and hypotension after abdominal perforation. Extremities are warm, bounding pulse, wide pulse pressure. CVP is low-normal.
 
 Which hemodynamic profile fits BEST?`,
@@ -390,7 +425,7 @@ Which hemodynamic profile fits BEST?`,
 
   {
     id: 28,
-    image: "",
+    image: null,
     question: `A 42-year-old woman has a suspicious pigmented lesion (ABCDE positive). Which immunohistochemical marker is LEAST likely to be positive in melanoma?`,
     options: ["S-100", "HMB-45", "Vimentin", "Cytokeratin-20"],
     answerIndex: 3,
@@ -399,7 +434,7 @@ Which hemodynamic profile fits BEST?`,
 
   {
     id: 29,
-    image: "",
+    image: null,
     question: `A 58-year-old man has a 2.2 cm SCC of lower lip with perineural invasion.
 
 Best management plan?`,
@@ -416,7 +451,7 @@ Best management plan?`,
 
   {
     id: 30,
-    image: "",
+    image: null,
     question: `Brodie–Trendelenburg test: after emptying veins and applying thigh tourniquet, superficial veins fill rapidly from below even with tourniquet on; releasing tourniquet produces no sudden gush from above.
 
 Most likely site of incompetence?`,
@@ -432,18 +467,23 @@ Most likely site of incompetence?`,
 
   {
     id: 31,
-    image: "",
+    image: null,
     question: `A 19-year-old girl has unilateral limb hypertrophy, prominent varicosities since childhood, and a large port-wine stain. Duplex suggests superficial venous malformation.
 
 Most likely diagnosis?`,
-    options: ["Park–Weber syndrome", "Klippel–Trénaunay syndrome", "Post-thrombotic syndrome", "Chronic venous insufficiency due to valve degeneration"],
+    options: [
+      "Park–Weber syndrome",
+      "Klippel–Trénaunay syndrome",
+      "Post-thrombotic syndrome",
+      "Chronic venous insufficiency due to valve degeneration",
+    ],
     answerIndex: 1,
     correctAnswerText: "Klippel–Trénaunay syndrome",
   },
 
   {
     id: 32,
-    image: "",
+    image: null,
     question: `A 46-year-old woman with long-standing varicose veins has ankle pigmentation, eczema and lipodermatosclerosis. No active ulcer currently.
 
 CEAP Clinical (C) class?`,
@@ -454,7 +494,7 @@ CEAP Clinical (C) class?`,
 
   {
     id: 33,
-    image: "",
+    image: null,
     question: `A 58-year-old man has unilateral calf swelling and pain 10 days after major surgery. Modified Wells score indicates DVT is likely.
 
 BEST next step?`,
@@ -470,7 +510,7 @@ BEST next step?`,
 
   {
     id: 34,
-    image: "",
+    image: null,
     question: `A 52-year-old chronic smoker has buttock/thigh claudication relieved by rest and erectile dysfunction. Femoral pulses are weak bilaterally.
 
 Most likely diagnosis?`,
@@ -486,7 +526,7 @@ Most likely diagnosis?`,
 
   {
     id: 35,
-    image: "",
+    image: null,
     question: `A 56-year-old smoker/diabetic has intermittent claudication, ABI 0.72, femoro-popliteal atherosclerotic disease. No rest pain/ulcer/gangrene.
 
 Best initial management to improve symptoms and reduce CV risk?`,
@@ -497,12 +537,13 @@ Best initial management to improve symptoms and reduce CV risk?`,
       "Catheter-directed thrombolysis",
     ],
     answerIndex: 1,
-    correctAnswerText: "Lifestyle modification + antiplatelet + statin + cilostazol",
+    correctAnswerText:
+      "Lifestyle modification + antiplatelet + statin + cilostazol",
   },
 
   {
     id: 36,
-    image: "",
+    image: null,
     question: `A patient with severe rest pain and small ischemic toe ulcers has diffuse distal tibial disease not amenable to bypass. Surgeon suggests lumbar sympathectomy.
 
 Which statement is TRUE?`,
@@ -513,12 +554,13 @@ Which statement is TRUE?`,
       "Major complication is urinary retention due to parasympathetic injury",
     ],
     answerIndex: 1,
-    correctAnswerText: "It works by relieving vasospasm and improving skin blood flow",
+    correctAnswerText:
+      "It works by relieving vasospasm and improving skin blood flow",
   },
 
   {
     id: 37,
-    image: "",
+    image: null,
     question: `A 62-year-old man with atrial fibrillation develops sudden severe leg pain, pallor, coldness, pulselessness with sensory/motor deficit (acute limb ischemia) starting 4 hours ago.
 
 Best next step?`,
@@ -529,12 +571,13 @@ Best next step?`,
       "Give thrombolysis only and delay imaging",
     ],
     answerIndex: 1,
-    correctAnswerText: "Start heparin and do urgent embolectomy (Fogarty) / revascularization",
+    correctAnswerText:
+      "Start heparin and do urgent embolectomy (Fogarty) / revascularization",
   },
 
   {
     id: 38,
-    image: "",
+    image: null,
     question: `A 59-year-old man gets dizziness and visual blurring during left arm exertion. BP is 25 mmHg lower in left arm; bruit over left supraclavicular area; proximal left subclavian stenosis on duplex.
 
 Which statement is TRUE?`,
@@ -545,12 +588,13 @@ Which statement is TRUE?`,
       "Primary symptom is lower limb claudication",
     ],
     answerIndex: 0,
-    correctAnswerText: "Reversal of flow occurs in ipsilateral vertebral artery",
+    correctAnswerText:
+      "Reversal of flow occurs in ipsilateral vertebral artery",
   },
 
   {
     id: 39,
-    image: "",
+    image: null,
     question: `A 71-year-old male smoker has an incidental infrarenal AAA on ultrasound measuring 5.8 cm and is asymptomatic.
 
 Best management?`,
@@ -566,7 +610,7 @@ Best management?`,
 
   {
     id: 40,
-    image: "",
+    image: null,
     question: `A 48-year-old man has sudden tearing chest pain radiating to the back with BP 210/120 and widened mediastinum—suspected aortic dissection.
 
 Best initial medical management while preparing definitive care?`,
@@ -577,12 +621,13 @@ Best initial medical management while preparing definitive care?`,
       "High-dose aspirin and heparin (NSTEMI protocol)",
     ],
     answerIndex: 1,
-    correctAnswerText: "IV beta blocker (esmolol) first, then vasodilator if needed",
+    correctAnswerText:
+      "IV beta blocker (esmolol) first, then vasodilator if needed",
   },
 
-{
+  {
     id: 41,
-    image: "",
+    image: null,
     question:
       "A 68-year-old man with diabetes mellitus and history of smoking undergoes elective hernia repair. On day 7, wound edges look pale and separation is starting. Which factor does NOT adversely affect wound healing?",
     options: [
@@ -597,7 +642,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 42,
-    image: "",
+    image: null,
     question:
       "A 32-year-old woman with a non-healing wound is self-medicating with supplements. Which vitamin has an inhibitory effect on wound healing?",
     options: ["Vitamin A", "Vitamin E", "Vitamin C", "Vitamin B complex"],
@@ -607,7 +652,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 43,
-    image: "",
+    image: null,
     question:
       "A 45-year-old woman undergoes elective cholecystectomy with controlled entry into the gastrointestinal tract and no spillage. No pus is present. This surgery is best classified as:",
     options: ["Clean", "Clean-contaminated", "Contaminated", "Dirty"],
@@ -617,7 +662,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 44,
-    image: "",
+    image: null,
     question:
       "A 24-year-old woman develops a raised itchy scar 3 months after ear piercing. The lesion progressively enlarges beyond the original wound margin. Most likely diagnosis and best first-line treatment:",
     options: [
@@ -632,7 +677,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 45,
-    image: "",
+    image: null,
     question:
       "A 35-year-old man presents with fever and a painful erythematous swelling over the leg. Margins are ill-defined; the skin is warm and tender. No raised sharply demarcated edge is present. Most likely diagnosis?",
     options: ["Erysipelas", "Cellulitis", "Ecthyma", "Erythema nodosum"],
@@ -642,7 +687,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 46,
-    image: "",
+    image: null,
     question:
       "A 60-year-old man with diabetes mellitus has rapidly progressive severe leg pain, toxic appearance, edema, and skin discoloration. Exploration shows gray necrotic fascia with thin ‘dishwater’ fluid; muscle appears viable. Most likely diagnosis and best management:",
     options: [
@@ -658,7 +703,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 47,
-    image: "",
+    image: null,
     question:
       "A 28-year-old man is planned for renal transplant. Which human leukocyte antigen locus is most important for organ transplantation and tissue typing?",
     options: [
@@ -673,7 +718,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 48,
-    image: "",
+    image: null,
     question:
       "A patient develops sudden anuria immediately after renal transplant. The graft becomes mottled and cyanotic on table. Doppler shows no flow. Most likely type of rejection, mechanism, and key pathological event?",
     options: [
@@ -683,12 +728,13 @@ Best initial medical management while preparing definitive care?`,
       "Acute rejection; immune complex; vasculitis",
     ],
     answerIndex: 1,
-    correctAnswerText: "Hyperacute rejection; preformed antibodies; graft thrombosis",
+    correctAnswerText:
+      "Hyperacute rejection; preformed antibodies; graft thrombosis",
   },
 
   {
     id: 49,
-    image: "",
+    image: null,
     question:
       "A 40-year-old renal transplant recipient on tacrolimus, mycophenolate mofetil, and prednisolone develops fever, lymphadenopathy, and tonsillar enlargement 8 months post-transplant. Biopsy shows post-transplant lymphoproliferative disorder. Most commonly associated virus and most common overall complication of immunosuppression?",
     options: [
@@ -703,7 +749,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 50,
-    image: "",
+    image: null,
     question:
       "During thyroidectomy, the surgeon is ligating a vessel close to the gland. Which vessel has the closest association with the recurrent laryngeal nerve and hence should be ligated carefully?",
     options: [
@@ -718,7 +764,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 51,
-    image: "",
+    image: null,
     question:
       "A patient with oral cavity carcinoma has clinically positive cervical lymph nodes (levels one to five). Which procedure removes levels one to five plus sternocleidomastoid muscle, internal jugular vein, and spinal accessory nerve?",
     options: [
@@ -733,7 +779,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 52,
-    image: "",
+    image: null,
     question:
       "A 38-year-old woman presents with a solitary thyroid nodule (2 centimeters) and is clinically euthyroid. No compressive symptoms. What is the initial preferred investigation?",
     options: [
@@ -743,12 +789,13 @@ Best initial medical management while preparing definitive care?`,
       "Computed tomography of neck",
     ],
     answerIndex: 2,
-    correctAnswerText: "Thyroid function test (thyroid stimulating hormone)",
+    correctAnswerText:
+      "Thyroid function test (thyroid stimulating hormone)",
   },
 
   {
     id: 53,
-    image: "",
+    image: null,
     question:
       "A 42-year-old woman has a 1.3 centimeter thyroid nodule. Ultrasonography shows solid, very hypoechoic, taller-than-wide, irregular margins, and microcalcifications. She is clinically euthyroid. Best next step?",
     options: [
@@ -763,7 +810,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 54,
-    image: "",
+    image: null,
     question:
       "Thyroid fine needle aspiration cytology report: ‘Follicular neoplasm / suspicious for follicular neoplasm’. Ultrasonography shows a 2.5 centimeter solid nodule with no lymph nodes. Most appropriate management?",
     options: [
@@ -778,7 +825,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 55,
-    image: "",
+    image: null,
     question:
       "A 28-year-old woman has weight loss, palpitations, heat intolerance, diffuse neck swelling, and prominent eyes. Thyroid stimulating hormone is suppressed and triiodothyronine and thyroxine are high. Thyroid scan shows diffuse increased uptake. Most specific diagnostic test?",
     options: [
@@ -793,7 +840,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 56,
-    image: "",
+    image: null,
     question:
       "A 36-year-old woman has painful tender thyroid swelling after an upper respiratory infection, fever, and elevated erythrocyte sedimentation rate. Thyroid scan shows decreased uptake and she is transiently thyrotoxic. Most likely diagnosis?",
     options: [
@@ -803,12 +850,13 @@ Best initial medical management while preparing definitive care?`,
       "Acute suppurative thyroiditis",
     ],
     answerIndex: 1,
-    correctAnswerText: "De Quervain (subacute granulomatous) thyroiditis",
+    correctAnswerText:
+      "De Quervain (subacute granulomatous) thyroiditis",
   },
 
   {
     id: 57,
-    image: "",
+    image: null,
     question:
       "A woman treated with neck irradiation 10 years ago now has papillary carcinoma of thyroid on cytology. What is the most likely route of spread?",
     options: [
@@ -823,7 +871,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 58,
-    image: "",
+    image: null,
     question:
       "A 22-year-old woman has a thyroid nodule. Cytology shows amyloid in stroma and serum calcitonin is elevated. Her father had pheochromocytoma. Most appropriate pre-operative priority?",
     options: [
@@ -838,7 +886,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 59,
-    image: "",
+    image: null,
     question:
       "A 68-year-old woman with long-standing multinodular goitre develops rapid enlargement over 3 weeks with hoarseness and stridor; mass is hard and fixed. Most likely diagnosis?",
     options: [
@@ -853,7 +901,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 60,
-    image: "",
+    image: null,
     question:
       "A 19-year-old male has marfanoid habitus, mucosal neuromas on tongue, chronic constipation, and a thyroid nodule. Which multiple endocrine neoplasia syndrome is most likely?",
     options: [
@@ -868,7 +916,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 61,
-    image: "",
+    image: null,
     question:
       "A newborn has a RET mutation consistent with multiple endocrine neoplasia type 2B. Best management to reduce mortality?",
     options: [
@@ -878,12 +926,13 @@ Best initial medical management while preparing definitive care?`,
       "Fine needle aspiration cytology when nodule appears",
     ],
     answerIndex: 2,
-    correctAnswerText: "Prophylactic total thyroidectomy in early childhood",
+    correctAnswerText:
+      "Prophylactic total thyroidectomy in early childhood",
   },
 
   {
     id: 62,
-    image: "",
+    image: null,
     question:
       "A 46-year-old woman has recurrent renal stones, bone pains, constipation, and depression. Calcium is high, parathyroid hormone is high, phosphate is low-normal. Best test for pre-operative localization?",
     options: [
@@ -898,7 +947,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 63,
-    image: "",
+    image: null,
     question:
       "A 55-year-old man with chronic renal failure has bone pain and pruritus. Parathyroid hormone is high, phosphate is high, calcium is low-normal. Mechanism?",
     options: [
@@ -914,7 +963,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 64,
-    image: "",
+    image: null,
     question:
       "After parathyroidectomy for severe primary hyperparathyroidism, within 48 hours a patient develops perioral tingling, carpopedal spasm, and prolonged corrected QT interval. Calcium is low and phosphate is low-normal. Cause?",
     options: [
@@ -924,12 +973,13 @@ Best initial medical management while preparing definitive care?`,
       "Hypercalcitoninemia from C-cell hyperplasia",
     ],
     answerIndex: 2,
-    correctAnswerText: "Hungry bone syndrome due to rapid uptake of calcium into bone",
+    correctAnswerText:
+      "Hungry bone syndrome due to rapid uptake of calcium into bone",
   },
 
   {
     id: 65,
-    image: "",
+    image: null,
     question:
       "A chronic smoker has squamous cell carcinoma of lower lip involving the oral commissure. After wide excision, defect involves about one-third to one-half of lower lip including commissure. Best reconstruction?",
     options: [
@@ -944,17 +994,22 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 66,
-    image: "",
+    image: null,
     question:
       "A 52-year-old man chews tobacco and smokes. He has a well-demarcated red velvety patch on buccal mucosa that does not scrape off. Most appropriate next step?",
-    options: ["Reassure and observe", "Topical antifungals", "Biopsy the lesion", "Oral steroids trial"],
+    options: [
+      "Reassure and observe",
+      "Topical antifungals",
+      "Biopsy the lesion",
+      "Oral steroids trial",
+    ],
     answerIndex: 2,
     correctAnswerText: "Biopsy the lesion",
   },
 
   {
     id: 67,
-    image: "",
+    image: null,
     question:
       "A 40-year-old woman has a slow-growing painless parotid swelling for 2 years. Facial nerve is intact. Most likely diagnosis?",
     options: [
@@ -969,7 +1024,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 68,
-    image: "",
+    image: null,
     question:
       "A well-circumscribed parotid mass has cytology suggesting pleomorphic adenoma. Surgeon proposes enucleation. Best response?",
     options: [
@@ -985,7 +1040,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 69,
-    image: "",
+    image: null,
     question:
       "A man has recurrent pain and swelling in the submandibular region during meals. Which statement is most accurate?",
     options: [
@@ -995,12 +1050,13 @@ Best initial medical management while preparing definitive care?`,
       "Ultrasound is contraindicated in suspected stone",
     ],
     answerIndex: 2,
-    correctAnswerText: "Sialography is contraindicated in acute sialadenitis",
+    correctAnswerText:
+      "Sialography is contraindicated in acute sialadenitis",
   },
 
   {
     id: 70,
-    image: "",
+    image: null,
     question:
       "A 45-year-old woman has dry mouth and gritty sensation in eyes for 1 year with enlarged parotids. Which finding is most consistent with the diagnosis?",
     options: [
@@ -1015,7 +1071,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 71,
-    image: "",
+    image: null,
     question:
       "After tangential excision of a burn, a split-thickness skin graft is applied. On post-operative day 2, graft looks pale, lifts easily, and there is fluid collection under it; no foul smell or pus. Most common cause of graft failure?",
     options: [
@@ -1030,7 +1086,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 72,
-    image: "",
+    image: null,
     question:
       "A term baby has unilateral left cleft lip. Parents ask best timing for repair. Which statement is most accurate regarding cleft lip repair?",
     options: [
@@ -1040,12 +1096,13 @@ Best initial medical management while preparing definitive care?`,
       "Surgery is ideally done when the baby satisfies the rule of tens",
     ],
     answerIndex: 3,
-    correctAnswerText: "Surgery is ideally done when the baby satisfies the rule of tens",
+    correctAnswerText:
+      "Surgery is ideally done when the baby satisfies the rule of tens",
   },
 
   {
     id: 73,
-    image: "",
+    image: null,
     question:
       "A 9-month-old child has isolated cleft palate with feeding difficulty and hypernasal speech developing. Best management statement?",
     options: [
@@ -1055,12 +1112,13 @@ Best initial medical management while preparing definitive care?`,
       "Cleft palate is most commonly repaired by Millard rotation-advancement technique",
     ],
     answerIndex: 1,
-    correctAnswerText: "Soft palate is repaired first around 6 months, followed by hard palate later",
+    correctAnswerText:
+      "Soft palate is repaired first around 6 months, followed by hard palate later",
   },
 
   {
     id: 74,
-    image: "",
+    image: null,
     question:
       "A thin female has episodic gross hematuria and left flank pain worse on standing. Imaging shows left renal vein narrowed between aorta and superior mesenteric artery with proximal dilatation and left-sided varicocele. Most likely mechanism?",
     options: [
@@ -1076,7 +1134,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 75,
-    image: "",
+    image: null,
     question:
       "A man has acute colicky flank pain radiating to groin. Non-contrast computed tomography of kidney, ureter, and bladder shows a 4 millimeter ureteric stone stuck near the pelvic brim with proximal hydroureteronephrosis. The stone is most likely impacted at which ureteric constriction?",
     options: [
@@ -1086,12 +1144,13 @@ Best initial medical management while preparing definitive care?`,
       "Intramural ureter at bladder trigone",
     ],
     answerIndex: 1,
-    correctAnswerText: "Crossing of ureter over common iliac vessels at the pelvic brim",
+    correctAnswerText:
+      "Crossing of ureter over common iliac vessels at the pelvic brim",
   },
 
   {
     id: 76,
-    image: "",
+    image: null,
     question:
       "An infant has persistent hydronephrosis. Intravenous pyelogram suggests possible pelviureteric junction obstruction but functional obstruction is uncertain. Urologist plans an invasive pressure-flow test. Which combination is correct?",
     options: [
@@ -1107,7 +1166,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 77,
-    image: "",
+    image: null,
     question:
       "A 40-year-old man has severe dysuria, frequency, weight loss, and sterile pyuria with repeated negative routine culture. Past pulmonary tuberculosis. Best next diagnostic test to confirm genitourinary tuberculosis?",
     options: [
@@ -1117,12 +1176,13 @@ Best initial medical management while preparing definitive care?`,
       "Urine eosinophils",
     ],
     answerIndex: 1,
-    correctAnswerText: "Three consecutive early-morning urine samples for acid-fast bacilli",
+    correctAnswerText:
+      "Three consecutive early-morning urine samples for acid-fast bacilli",
   },
 
   {
     id: 78,
-    image: "",
+    image: null,
     question:
       "A woman has recurrent urinary tract infections, urine pH is alkaline, and a large branching renal pelvis stone is seen. Culture grows Proteus. Most likely stone composition and medical prevention?",
     options: [
@@ -1132,12 +1192,13 @@ Best initial medical management while preparing definitive care?`,
       "Cystine; allopurinol",
     ],
     answerIndex: 1,
-    correctAnswerText: "Struvite (magnesium ammonium phosphate); acetohydroxamic acid",
+    correctAnswerText:
+      "Struvite (magnesium ammonium phosphate); acetohydroxamic acid",
   },
 
   {
     id: 79,
-    image: "",
+    image: null,
     question:
       "A woman presents with sudden severe flank pain, hypotension, and palpable flank mass. Computed tomography shows a renal mass with fat density and perirenal hemorrhage. Most likely diagnosis and named syndrome?",
     options: [
@@ -1152,7 +1213,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 80,
-    image: "",
+    image: null,
     question:
       "A 3-year-old child has painless abdominal mass, mild hematuria, hypertension, aniridia, and developmental delay. Most likely syndrome and genetic locus?",
     options: [
@@ -1167,7 +1228,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 81,
-    image: "",
+    image: null,
     question:
       "A man with pelvic fracture has blood at urethral meatus and inability to void. Best next step before any urethral catheterization?",
     options: [
@@ -1177,12 +1238,13 @@ Best initial medical management while preparing definitive care?`,
       "Computed tomography abdomen with oral contrast first",
     ],
     answerIndex: 2,
-    correctAnswerText: "Retrograde urethrogram before any urethral catheterization",
+    correctAnswerText:
+      "Retrograde urethrogram before any urethral catheterization",
   },
 
   {
     id: 82,
-    image: "",
+    image: null,
     question:
       "Newborn male has ventrally placed urethral opening with dorsal hooded prepuce and ventral curvature. Which statement regarding hypospadias is correct?",
     options: [
@@ -1192,12 +1254,13 @@ Best initial medical management while preparing definitive care?`,
       "Circumcision is recommended at birth to facilitate hygiene",
     ],
     answerIndex: 1,
-    correctAnswerText: "Most common and mildest type is glanular; most severe is perineal",
+    correctAnswerText:
+      "Most common and mildest type is glanular; most severe is perineal",
   },
 
   {
     id: 83,
-    image: "",
+    image: null,
     question:
       "A man with long-standing lower urinary tract symptoms reports two-stage micturition: after finishing urination he presses lower abdomen and passes more urine; symptoms vary with posture. Cystoscopy shows a bladder outpouching. Most characteristic feature of bladder diverticulum?",
     options: [
@@ -1213,7 +1276,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 84,
-    image: "",
+    image: null,
     question:
       "A 66-year-old man has hesitancy, weak stream, nocturia. Peak urinary flow rate is 8 milliliters per second and post-void residual is 140 milliliters. Best initial pharmacotherapy for rapid symptomatic relief?",
     options: ["Finasteride", "Dutasteride", "Tamsulosin", "Sildenafil"],
@@ -1223,7 +1286,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 85,
-    image: "",
+    image: null,
     question:
       "A man has recurrent urinary tract infections, perineal pain, and dysuria for months. After prostatic massage, the post-massage urine specimen shows markedly higher bacteria and pus cells with positive culture. This diagnostic test is:",
     options: [
@@ -1238,7 +1301,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 86,
-    image: "",
+    image: null,
     question:
       "A term male newborn has empty right hemiscrotum; testis palpable in inguinal canal. Which statement is most correct?",
     options: [
@@ -1254,7 +1317,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 87,
-    image: "",
+    image: null,
     question:
       "A 26-year-old sexually active man has acute scrotal pain, dysuria, and urethral discharge. Fever is mild and cremasteric reflex is present. Most likely causative organism?",
     options: [
@@ -1269,7 +1332,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 88,
-    image: "",
+    image: null,
     question:
       "A 45-year-old man has painless scrotal swelling for 1 year. It is fluctuant, transilluminates, and you can get above the swelling. Ultrasonography confirms fluid around the testis. Definitive treatment?",
     options: [
@@ -1284,7 +1347,7 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 89,
-    image: "",
+    image: null,
     question:
       "A 28-year-old man has painless testicular mass with elevated alpha-fetoprotein and retroperitoneal nodes. Histology is non-seminomatous germ cell tumor. Most appropriate statement about management?",
     options: [
@@ -1300,27 +1363,34 @@ Best initial medical management while preparing definitive care?`,
 
   {
     id: 90,
-    image: "",
+    image: null,
     question:
       "A man with past pulmonary tuberculosis has sterile pyuria, frequency, and dull flank pain. Which of the following is NOT a radiological feature of renal tuberculosis?",
-    options: ["Golf-hole ureter", "Thimble bladder", "Putty kidney", "Horseshoe kidney"],
+    options: [
+      "Golf-hole ureter",
+      "Thimble bladder",
+      "Putty kidney",
+      "Horseshoe kidney",
+    ],
     answerIndex: 3,
     correctAnswerText: "Horseshoe kidney",
   },
 
-{
+  {
     id: 91,
-    image: "",
+    image: null,
     question:
       "Which of the following genes is most commonly associated with the development of breast carcinoma?",
     options: ["BRCA 1", "BRCA 2", "PTEN", "KRAS"],
     answerIndex: 0,
     correctAnswerText: "BRCA 1",
   },
+
   {
     id: 92,
-    image: "",
-    question: "Which quadrant of the breast contains the greatest amount of tissue?",
+    image: null,
+    question:
+      "Which quadrant of the breast contains the greatest amount of tissue?",
     options: [
       "Upper inner quadrant",
       "Upper outer quadrant",
@@ -1330,9 +1400,10 @@ Best initial medical management while preparing definitive care?`,
     answerIndex: 1,
     correctAnswerText: "Upper outer quadrant",
   },
+
   {
     id: 93,
-    image: "",
+    image: null,
     question:
       "Which among the following criteria is suggestive of locally advanced thyroid cancer?",
     options: [
@@ -1344,9 +1415,10 @@ Best initial medical management while preparing definitive care?`,
     answerIndex: 2,
     correctAnswerText: "Recurrent laryngeal nerve paralysis",
   },
+
   {
     id: 94,
-    image: "",
+    image: null,
     question:
       "Which condition refers to angiosarcoma developing in the same-side arm as a complication of long-standing post-surgical lymphoedema?",
     options: [
@@ -1358,36 +1430,50 @@ Best initial medical management while preparing definitive care?`,
     answerIndex: 1,
     correctAnswerText: "Stewart–Treves syndrome",
   },
+
   {
     id: 95,
-    image: "",
+    image: null,
     question:
       "Which among the following is not an important anatomical relation of the submandibular gland?",
-    options: ["Lingual nerve", "Posterior facial vein", "Facial artery", "Hypoglossal nerve"],
+    options: [
+      "Lingual nerve",
+      "Posterior facial vein",
+      "Facial artery",
+      "Hypoglossal nerve",
+    ],
     answerIndex: 1,
     correctAnswerText: "Posterior facial vein",
   },
+
   {
     id: 96,
     image: "images/IMG_0262.jpeg",
     question:
       "A 77-year-old man with biopsy-proven prostate cancer and a serum prostate-specific antigen level of 67 nanograms per millilitre undergoes a bone scan. What is the most likely stage?",
-    options: ["Limited to prostate", "Locally advanced", "Metastatic", "Cannot be commented upon"],
+    options: [
+      "Limited to prostate",
+      "Locally advanced",
+      "Metastatic",
+      "Cannot be commented upon",
+    ],
     answerIndex: 2,
     correctAnswerText: "Metastatic",
   },
+
   {
     id: 97,
-    image: "",
+    image: null,
     question:
       "A patient has thyroid cancer with a 3 centimetre tumour and unilateral metastasis to Delphian lymph nodes, with no distant metastasis. What is the correct Tumour–Node–Metastasis stage?",
     options: ["T2N1aM0", "T1N1aM0", "T2N1bM0", "T1N1bM0"],
     answerIndex: 0,
     correctAnswerText: "T2N1aM0",
   },
+
   {
     id: 98,
-    image: "",
+    image: null,
     question:
       "Which of the following statements is NOT true regarding Autosomal Dominant Polycystic Kidney Disease?",
     options: [
@@ -1400,6 +1486,7 @@ Best initial medical management while preparing definitive care?`,
     correctAnswerText:
       "Hypertension is the least common manifestation of Autosomal Dominant Polycystic Kidney Disease",
   },
+
   {
     id: 99,
     image: "images/IMG_0263.jpeg",
@@ -1413,18 +1500,25 @@ Best initial medical management while preparing definitive care?`,
     answerIndex: 1,
     correctAnswerText: "Crossed renal ectopia",
   },
+
   {
     id: 100,
-    image: "",
+    image: null,
     question:
       "Which among the following organisms are not responsible for acute suppurative thyroiditis?",
-    options: ["Staphylococcus", "Streptococcus", "Campylobacter", "Clostridium"],
+    options: [
+      "Staphylococcus",
+      "Streptococcus",
+      "Campylobacter",
+      "Clostridium",
+    ],
     answerIndex: 2,
     correctAnswerText: "Campylobacter",
   },
+
   {
     id: 101,
-    image: "",
+    image: null,
     question:
       "Which among the following is not a preventive technique for Frey’s syndrome following parotidectomy?",
     options: [
@@ -1436,6 +1530,7 @@ Best initial medical management while preparing definitive care?`,
     answerIndex: 3,
     correctAnswerText: "Injection of botulinum toxin",
   },
+
   {
     id: 102,
     image: "images/IMG_0264.jpeg",
@@ -1450,9 +1545,10 @@ Best initial medical management while preparing definitive care?`,
     answerIndex: 0,
     correctAnswerText: "Suprapubic cystostomy",
   },
+
   {
     id: 103,
-    image: "",
+    image: null,
     question:
       "Where does the lymphatic spread occur for a tumour in the posterior one-third of the breast?",
     options: [
@@ -1464,9 +1560,10 @@ Best initial medical management while preparing definitive care?`,
     answerIndex: 3,
     correctAnswerText: "Internal mammary lymph nodes",
   },
+
   {
     id: 104,
-    image: "",
+    image: null,
     question:
       "In which of the following conditions of the breast disease is magnetic resonance imaging scan not useful?",
     options: [
@@ -1478,6 +1575,7 @@ Best initial medical management while preparing definitive care?`,
     answerIndex: 3,
     correctAnswerText: "To stage the breast cancer",
   },
+
   {
     id: 105,
     image: "images/IMG_0265.jpeg",
@@ -1492,44 +1590,64 @@ Best initial medical management while preparing definitive care?`,
     answerIndex: 0,
     correctAnswerText: "Vesicoureteric reflux",
   },
+
   {
     id: 106,
     image: "images/IMG_0266.jpeg",
     question:
       "A 45-year-old patient complains of pain on one side of the neck that worsens with eating. Ultrasound imaging of the salivary glands is shown. What is the most likely diagnosis?",
-    options: ["Foreign body", "Sialolithiasis", "Osteoma of floor of mouth", "Cervical lymphadenopathy"],
+    options: [
+      "Foreign body",
+      "Sialolithiasis",
+      "Osteoma of floor of mouth",
+      "Cervical lymphadenopathy",
+    ],
     answerIndex: 1,
     correctAnswerText: "Sialolithiasis",
   },
+
   {
     id: 107,
-    image: "",
+    image: null,
     question: "Which of the following is the most common type of shock?",
-    options: ["Hypovolemic", "Cardiogenic", "Obstructive", "Distributive"],
+    options: [
+      "Hypovolemic",
+      "Cardiogenic",
+      "Obstructive",
+      "Distributive",
+    ],
     answerIndex: 0,
     correctAnswerText: "Hypovolemic",
   },
+
   {
     id: 108,
-    image: "",
+    image: null,
     question:
       "During a routine antenatal checkup, a pregnant woman in her third trimester is noticed to have accessory nipples. Which of the following does this condition refer to?",
-    options: ["Polymazia", "Polythelia", "Symmastia", "Supernumerary mazia"],
+    options: [
+      "Polymazia",
+      "Polythelia",
+      "Symmastia",
+      "Supernumerary mazia",
+    ],
     answerIndex: 1,
     correctAnswerText: "Polythelia",
   },
+
   {
     id: 109,
-    image: "",
+    image: null,
     question:
       "A patient has thyroid cancer with a 3 centimetre tumour and unilateral metastasis to Delphian lymph nodes, with no distant metastasis. What is the correct Tumour–Node–Metastasis stage?",
     options: ["T2N1aM0", "T1N1aM0", "T2N1bM0", "T1N1bM0"],
     answerIndex: 0,
     correctAnswerText: "T2N1aM0",
   },
+
   {
     id: 110,
-    image: "",
+    image: null,
     question:
       "A middle-aged woman presents with flank pain and painful micturition and is diagnosed with ureteric colic due to ureteric calculi. What is the best diagnostic modality in this case?",
     options: [
@@ -1539,93 +1657,145 @@ Best initial medical management while preparing definitive care?`,
       "Ureteroscopy",
     ],
     answerIndex: 0,
-    correctAnswerText: "Non-contrast computed tomography of the kidney, ureters, and bladder",
+    correctAnswerText:
+      "Non-contrast computed tomography of the kidney, ureters, and bladder",
   },
 
-{
+  {
     id: 111,
-    image: "",
+    image: null,
     question:
       "A patient with unilateral breast cancer is started on tamoxifen. This will increase the risk of?",
-    options: ["Ovarian cancer", "Endometrial cancer", "Breast cancer on the other side", "Cervical cancer"],
+    options: [
+      "Ovarian cancer",
+      "Endometrial cancer",
+      "Breast cancer on the other side",
+      "Cervical cancer",
+    ],
     answerIndex: 1,
     correctAnswerText: "Endometrial cancer",
   },
+
   {
     id: 112,
     image: "images/IMG_0267.jpeg",
     question:
       "A 62-year-old man with long-standing diabetes mellitus presents with a non-healing ulcer on the foot with progressive black discoloration of multiple toes. The toes look dry, shriveled, and black with a clear line of demarcation. What is the most likely underlying cause of this presentation?",
-    options: ["Venous ulcer", "Pressure sore", "Chronic arterial insufficiency", "Diabetic neuropathy"],
+    options: [
+      "Venous ulcer",
+      "Pressure sore",
+      "Chronic arterial insufficiency",
+      "Diabetic neuropathy",
+    ],
     answerIndex: 2,
     correctAnswerText: "Chronic arterial insufficiency",
   },
+
   {
     id: 113,
-    image: "",
-    question: "Dohlman’s procedure is done for which of the following conditions?",
-    options: ["Meckel’s diverticulum", "Zenker’s diverticulum", "Bochdalek hernia", "Ménétrier disease"],
+    image: null,
+    question:
+      "Dohlman’s procedure is done for which of the following conditions?",
+    options: [
+      "Meckel’s diverticulum",
+      "Zenker’s diverticulum",
+      "Bochdalek hernia",
+      "Ménétrier disease",
+    ],
     answerIndex: 1,
     correctAnswerText: "Zenker’s diverticulum",
   },
+
   {
     id: 114,
-    image: "",
-    question: "Which is the most common organism causing acute bacterial prostatitis?",
-    options: ["Enterococcus", "Proteus", "Streptococcus agalactiae", "Escherichia coli"],
+    image: null,
+    question:
+      "Which is the most common organism causing acute bacterial prostatitis?",
+    options: [
+      "Enterococcus",
+      "Proteus",
+      "Streptococcus agalactiae",
+      "Escherichia coli",
+    ],
     answerIndex: 3,
     correctAnswerText: "Escherichia coli",
   },
+
   {
     id: 115,
     image: "images/IMG_0268.jpeg",
     question: "Identify the image:",
-    options: ["Ileal diverticulum", "Bladder exstrophy", "Omphalocele", "Gastroschisis"],
+    options: [
+      "Ileal diverticulum",
+      "Bladder exstrophy",
+      "Omphalocele",
+      "Gastroschisis",
+    ],
     answerIndex: 1,
     correctAnswerText: "Bladder exstrophy",
   },
+
   {
     id: 116,
-    image: "",
+    image: null,
     question:
       "A farmer has a brownish lesion over the plantar aspect of the foot for 2 years, increasing in size. Excision biopsy shows cells with large pleomorphic nuclei and numerous mitotic figures. Which of the following will be used as a marker for this condition?",
     options: ["S-100", "CK-20", "CK-10", "Vimentin"],
     answerIndex: 0,
     correctAnswerText: "S-100",
   },
+
   {
     id: 117,
-    image: "",
-    question: "What is the recommended age for starting screening mammography?",
+    image: null,
+    question:
+      "What is the recommended age for starting screening mammography?",
     options: ["40 years", "45 years", "50 years", "55 years"],
     answerIndex: 0,
     correctAnswerText: "40 years",
   },
+
   {
     id: 118,
     image: "images/IMG_0269.jpeg",
     question:
       "The image shows methylene blue dye being injected in the peritumoral region. What is this procedure useful for?",
-    options: ["Localizing the tumor", "Identifying the margins", "Sentinel lymph node biopsy", "Identifying metastasis"],
+    options: [
+      "Localizing the tumor",
+      "Identifying the margins",
+      "Sentinel lymph node biopsy",
+      "Identifying metastasis",
+    ],
     answerIndex: 2,
     correctAnswerText: "Sentinel lymph node biopsy",
   },
+
   {
     id: 119,
     image: "images/IMG_0270.jpeg",
     question:
       "A 40-year-old woman has perioral numbness and tingling in fingers one year after parathyroidectomy. Electrocardiogram shows changes consistent with hypocalcaemia. What will be your immediate management?",
-    options: ["Beta blockers", "Teriparatide", "Intravenous bisphosphonates", "Intravenous calcium gluconate"],
+    options: [
+      "Beta blockers",
+      "Teriparatide",
+      "Intravenous bisphosphonates",
+      "Intravenous calcium gluconate",
+    ],
     answerIndex: 3,
     correctAnswerText: "Intravenous calcium gluconate",
   },
+
   {
     id: 120,
     image: "images/IMG_0271.jpeg",
     question: "Identify the instrument shown in the image.",
-    options: ["Allis tissue forceps", "Babcock’s forceps", "Lane’s tissue holding forceps", "Kocher’s hemostatic forceps"],
+    options: [
+      "Allis tissue forceps",
+      "Babcock’s forceps",
+      "Lane’s tissue holding forceps",
+      "Kocher’s hemostatic forceps",
+    ],
     answerIndex: 1,
     correctAnswerText: "Babcock’s forceps",
   },
-
 ];
